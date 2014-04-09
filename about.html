@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="css/reset.css" rel="stylesheet">    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css" />
+	<link href="css/style.css" rel="stylesheet">
+      
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>  
+
+    
+   <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+   <link rel="stylesheet" type="text/css" href="css/example.css" />
+   
+
+   
+      
+         
+      
+  
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$.fn.fullpage({
+				//slidesColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                menu: '#menu'
+                
+            
+                
+			});
+		});
+	</script>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins)--> 
+<script type="text/javascript" src="http://www.onextrapixel.com/examples/jquery-page-transitions/js/custom.js"></script>
+      
+</head>
+
+<body id="about">
+
+
+
+<section class="about section" id="section0">
+
+
+    
+<div class="container">
+    <div class="row">
+    	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 centered">
+                       
+            <!--project 1-->
+          
+       
+                <div class="intro">
+                  <div class="about-details">
+                        
+                        <h1 class="about-details-title extra-light">About me</h1>
+                        <p class="about-details-decription  medium">
+                            My name is Richard Beerens, a digital designer and art director from Amsterdam, the Netherlands. I started my digital career in advertising in the year 2010. I love designing anything interactive. Currently I am working for the advertising agency JWT Amsterdam. Do you want to know more? Feel free to <a href="#" class="link-white">get in touch</a>.
+                        </p>
+                        
+                    </div>
+                </div>     
+			   
+            
+ 
+			</div>
+          </div>
+		</div>
+    
+</section>
+
+
+    
+
+    
+<!--Sticky Footer--> 
+
+
+
+<div id="fade-it">
+<footer class="footer" id="footer">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="navbar-inner navbar-content-center">
+             <div class="container">
+                            <div class="row">
+                            
+                                    <div class="footer-nav">
+                                    
+                                       <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 footer-menu-link-left"><a href="about.html">about me</a></div>
+                                       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 footer-menu-logo"><a href="index.html"><img src="img/mini-logo.png"/></a></div>
+                                       <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 footer-menu-link-right"><a href="contact.html">get in toch</a></div>
+                             	 </div> 
+							</div>	
+             			</div>          
+          	 	 </div>
+        </nav>
+</footer>
+</div>    
+
+    
+<!--<script src="https://code.jquery.com/jquery.js"></script>-->
+    
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src='js/smooth-scroll.js'></script>
+
+   
+
+    
+<script>
+    $("[rel='tooltip']").tooltip();    
+    //hide all thumbnails
+     $( document ).ready(function() {
+        $(this).find('.caption').fadeIn(250)
+     });
+    //show them on hover over
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').fadeOut(205)
+        },
+        function(){
+            $(this).find('.caption').fadeIn(205)
+        }
+    );
+        
+</script> 
+
+    
+    
+
+    
+    
+  </body>
+</html>
