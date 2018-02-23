@@ -1,6 +1,0 @@
-http://tympanus.net/Development/ItemTransitions/index2.html
-http://www.onextrapixel.com/examples/jquery-page-transitions/otherPage.php
-
-http://tympanus.net/Development/PageTransitions/
-
-http://stackoverflow.com/questions/8076365/jquery-fade-in-site-content-once-its-loaded
